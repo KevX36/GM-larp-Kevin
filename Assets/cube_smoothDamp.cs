@@ -12,5 +12,10 @@ public class cube_smoothDamp : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.SmoothDamp(transform.position, new Vector3(5,-2,0),ref vol,2);
+        
+        if (transform.position.x >= 4.9f)
+        {
+            transform.position = new Vector3(0,-2,0);
+        }
     }
 }
