@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 245978097}
   - component: {fileID: 245978101}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: smoothdamp cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 820151151}
   - component: {fileID: 820151150}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: lerp cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -530,7 +530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 008ef7f65a6a47f4e9eb6c36fa8c664d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 0}
 --- !u!65 &820151151
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -614,7 +613,7 @@ Transform:
   m_GameObject: {fileID: 820151149}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.88, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
